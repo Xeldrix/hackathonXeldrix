@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/yael_/Repositories/hackathonXeldrix/app/page.tsx"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <main style={{ textAlign: \"center\", padding: \"2rem\" }}>\r\n      <h1>Bienvenido a Xeldrix Hackathon 🚀</h1>\r\n      <p>Next.js ya está funcionando correctamente.</p>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,OAAO;YAAE,WAAW;YAAU,SAAS;QAAO;;0BAClD,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;;;;;;;AAGT","debugId":null}}]
-}
