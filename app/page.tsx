@@ -1,8 +1,23 @@
-export default function Home() {
+"use client";
+
+import React from "react";
+import { Navbar } from "../src/components/Navbar";
+import { HeroSection } from "../src/components/HeroSection";
+import { ProductHighlights } from "../src/components/ProductHighlights";
+import { AboutSection } from "../src/components/AboutSection";
+import { Footer } from "../src/components/Footer";
+
+const Page: React.FC = () => {
   return (
-    <main style={{ textAlign: "center", padding: "2rem" }}>
-      <h1>Bienvenido a Xeldrix Hackathon 🚀</h1>
-      <p>Next.js ya está funcionando correctamente.</p>
+    <main className="bg-primary min-h-screen font-sans">
+      <Navbar />
+      <HeroSection />
+      <ProductHighlights />
+      <AboutSection />
+      <Footer />
+      
     </main>
   );
-}
+};
+
+export default Page;
