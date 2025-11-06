@@ -1,12 +1,14 @@
-export const metadata = {
-  title: "Xeldrix Hackathon",
-  description: "Proyecto migrado a Next.js",
-};
+"use client";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+import "./globals.css";
+import { ReactNode } from "react";
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body className="min-h-screen">
+        {children}
+      </body>
     </html>
   );
 }

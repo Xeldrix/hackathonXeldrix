@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* estilos base */
+body {
+  @apply bg-primary text-foreground font-sans;
+}
+
+/* Modo oscuro */
+.dark body {
+  @apply bg-foreground text-primary;
+}
+
+/* Animación fade-in opcional */
+.fade-in {
+  @apply transition-opacity duration-700 opacity-0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
