@@ -7,7 +7,7 @@ export const AboutSection: React.FC = () => {
       <p className="max-w-3xl mx-auto text-foreground text-lg leading-relaxed">
         Con más de 40 años de experiencia, en{" "}
         <strong className="text-secondary font-semibold">
-          Zapatería Nacional
+          Calzando a México
         </strong>{" "}
         ofrecemos calzado hecho en México con materiales de primera calidad.
         Cada paso cuenta, y nosotros te acompañamos con estilo, confort y

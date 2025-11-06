@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import { Navbar } from "../src/components/Navbar";
-import { HeroSection } from "../src/components/HeroSection";
-import { ProductHighlights } from "../src/components/ProductHighlights";
-import { AboutSection } from "../src/components/AboutSection";
-import { Footer } from "../src/components/Footer";
+import { Navbar } from "../src/components/Home/Navbar";
+import { HeroSection } from "../src/components/Home/HeroSection";
+import { ProductHighlights } from "../src/components/Home/ProductHighlights";
+import { AboutSection } from "../src/components/Home/AboutSection";
+import { Footer } from "../src/components/Home/Footer";
 
 const Page: React.FC = () => {
   return (
